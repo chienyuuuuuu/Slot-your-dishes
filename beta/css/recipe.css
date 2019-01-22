@@ -1,0 +1,25 @@
+body{
+	padding-top:50px;
+}
+h2{
+  font-family: 'Berkshire Swash', cursive;
+  vertical-align: bottom;
+}
+h3, h4{
+ font-family: 'Work Sans', sans-serif;
+}
+
+container{
+	    align-content: center;
+}
+footer{
+    margin-top:30px;
+	padding-top:20px;
+	background:#F93;
+	padding:40px, 0, 40px, 0;
+}
+footer .navbar-default{
+	background: transparent;
+	border: none;
+	text-align: center	
+}

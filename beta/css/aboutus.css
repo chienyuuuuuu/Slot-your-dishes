@@ -1,0 +1,16 @@
+body{
+	padding-top:50px;
+	
+}
+
+footer{
+    margin-top:10px;
+	padding-top:20px;
+	background:#F93;
+	padding:40px, 0, 40px, 0;
+}
+footer .navbar-default{
+	background: transparent;
+	border: none;
+	text-align: center	
+}

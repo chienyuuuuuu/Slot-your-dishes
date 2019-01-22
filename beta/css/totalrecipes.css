@@ -1,0 +1,39 @@
+body{
+	padding-top:50px;
+}
+footer{
+    margin-top:10px;
+	padding-top:20px;
+	background:#F93;
+	padding:40px, 0, 40px, 0;
+}
+footer .navbar-default{
+	background: transparent;
+	border: none;
+	text-align: center	
+}
+h2{
+  font-family: 'Berkshire Swash', cursive;
+  vertical-align: bottom;
+}
+h3, h4{
+ font-family: 'Work Sans', sans-serif;
+}
+h5{
+   vertical-align: bottom;
+}
+
+.col-md-6{
+	vertical-align: bottom;
+}
+a{
+	color:#000;
+        
+}
+a:hover{
+	text-decoration: none;
+	color:#ccc;	
+}
+
+
+

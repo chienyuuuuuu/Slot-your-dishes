@@ -1,0 +1,121 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lots of Dishes</title>
+        <!--mobile apps-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Tasty Food Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+              Smartphone Compatible web template, free Webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!--mobile apps-->
+        <!--Custom Theme files -->
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+        <!-- //Custom Theme files -->
+        <!-- js -->
+        <script src="js/jquery-1.11.1.min.js"></script> 
+        <!-- //js -->
+        <!--web-fonts-->
+        <link href='//fonts.googleapis.com/css?family=Stint+Ultra+Condensed' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <!--//web-fonts-->
+        <!--animate-->
+        <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <!--//end-animate-->
+        <!-- start-smooth-scrolling-->
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>	
+        <script type="text/javascript">
+                    jQuery(document).ready(function ($) {
+                        $(".scroll").click(function (event) {
+                            event.preventDefault();
+                            $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+                        });
+                    });
+        </script>
+        <!--//end-smooth-scrolling-->
+    </head>
+    <body>
+        <!--banner-->
+        <div class="banner">
+            <div class="container">
+                <!--header-->
+                <div class="header">
+                    <div class="logo">
+                        <h1 class="wow zoomIn animated" data-wow-delay=".5s"><a href="#">WHAT WE EAT TODAY</a></h1>
+                    </div>
+                    <div class="top-nav">
+                        <span class="menu"><img src="images/menu.png" alt=""/></span>
+                        <ul>
+                            <li class="wow slideInDown" data-wow-delay=".6s"></li>
+                            <li class="wow slideInDown"></li>
+                            <li class="wow slideInDown"></li>
+                            <li class="wow slideInDown"></li>
+                            <li class="wow slideInDown"></li>
+                            <li class="wow slideInDown"></li>
+                            <li class="wow slideInDown"></li>
+                            <li class="wow slideInDown"></li>
+                            <li class="wow slideInDown"></li>
+                        </ul>
+                        <!-- script-for-menu -->
+                        <script>
+                            $("span.menu").click(function () {
+                                $(".top-nav ul").slideToggle("slow", function () {
+                                });
+                            });
+                        </script>
+                        <!-- script-for-menu -->
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>	
+                <!--//header-->
+                <div class="bnr-text wow slideInUp animated" data-wow-delay=".5s">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <h2 class="bnr-title">Help you calculate the amount of ingredients you need to buy for a week.</h2>
+                                <p>Once you've selected your weekly recipe, we'll calculate the total number of items you need to buy for a week.Also, we will generate shopping lists for you to get all u need! </p>								
+                            </li>
+                            <li>								
+                                <h3 class="bnr-title">A wide range of food for u to choose</h3>
+                                <p>We have selected a variety of delicious dishes, including Chinese food, Indian food, Italian food, etc., you will get a perfect menu!</p>
+                            </li>
+                            <li>
+                                <h3 class="bnr-title">get your random receipe now!</h1></h1></h3>
+                                <p>Randomly generate your receipe so you don't have to worry about what to eat tomorrow</p>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <!--FlexSlider-->
+                        <script defer src="js/jquery.flexslider.js"></script>
+                        <script type="text/javascript">
+                            $(window).load(function () {
+                                $('.flexslider').flexslider({
+                                    animation: "slide",
+                                    start: function (slider) {
+                                        $('body').removeClass('loading');
+                                    }
+                                });
+                            });
+                        </script>
+                        <!--End-slider-script-->
+                    </div>
+                    <a href="mealPlan.php" class="more more-right">start!</a>
+                </div>
+            </div>	
+        </div>	
+        <!--//banner--> 
+    </body>
+</html>
